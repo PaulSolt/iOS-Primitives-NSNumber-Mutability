@@ -12,6 +12,6 @@
 
 - (instancetype)initWithName:(NSString *)name;
 
-@property (nonatomic) NSString *name;
+@property (nonatomic, copy) NSString *name;	// Always copy mutable classes so we own the data
 
 @end

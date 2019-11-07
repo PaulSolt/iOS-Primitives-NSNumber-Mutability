@@ -13,7 +13,7 @@
 - (instancetype)initWithName:(NSString *)name {
     self = [super init];
     if (self) {
-        _name = name;
+        _name = [name copy]; // Always a NSString (not a NSMutableString ever.)
     }
     return self;
 }

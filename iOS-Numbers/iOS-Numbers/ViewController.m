@@ -49,6 +49,15 @@
 	
 	LSIPerson *actor = [[LSIPerson alloc] initWithName:james];
 	NSLog(@"actor: %@", actor.name);
+	
+	[james setString:[@"David" mutableCopy]];	// modifying a mutable string and ... what's going to happen?
+	
+	NSLog(@"actor: %@", actor.name);
+	
+	actor.name = @"Jim";				// We expect changes to the init/property to change names
+										// but we don't expect external changes to modify our
+										// objects internal state
+	NSLog(@"actor: %@", actor.name);
 }
 
 - (double)calculateSum:(NSArray *)array {
