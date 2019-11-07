@@ -27,12 +27,24 @@ int main(int argc, const char * argv[]) {
 		// 1 2 3 4 5 6 7 8  // Index
 		// Binary = 1's and 0's
 
-		printf("piFloat: %f\n", piFloat);
-		printf("piDouble: %f\n", piDouble);
+		printf("piFloat: %0.8f\n", piFloat);
+		printf("piDouble: %.8f\n", piDouble);
 
+		long value = 42;
 
+		printf("value: %li\n", value);
+		
+		// Address of Operator (&value)
+		long *addressOfValue = &value;
+		printf("addressOfValue: %p\n", addressOfValue);
+		printf("&addressOfValue: %p\n", &addressOfValue);
 
-
+		// Pointers (dereference operator = *value)
+		printf("*addressOfValue: %li\n", *addressOfValue);
+		printf("value: %li\n", value);
+		
+		*addressOfValue = 75;
+		printf("CHANGED value: %li\n", value);
 
 	}
 	return 0;
