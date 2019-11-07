@@ -14,6 +14,7 @@
 		BD74F77B23749FD90016A981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD74F77A23749FD90016A981 /* Assets.xcassets */; };
 		BD74F77E23749FD90016A981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD74F77C23749FD90016A981 /* LaunchScreen.storyboard */; };
 		BD74F78123749FD90016A981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD74F78023749FD90016A981 /* main.m */; };
+		BD74F7892374A7AE0016A981 /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BD74F7882374A7AE0016A981 /* LSIPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BD74F77D23749FD90016A981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD74F77F23749FD90016A981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD74F78023749FD90016A981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD74F7872374A7AE0016A981 /* LSIPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		BD74F7882374A7AE0016A981 /* LSIPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BD74F77223749FD60016A981 /* SceneDelegate.m */,
 				BD74F77423749FD60016A981 /* ViewController.h */,
 				BD74F77523749FD60016A981 /* ViewController.m */,
+				BD74F7872374A7AE0016A981 /* LSIPerson.h */,
+				BD74F7882374A7AE0016A981 /* LSIPerson.m */,
 				BD74F77723749FD60016A981 /* Main.storyboard */,
 				BD74F77A23749FD90016A981 /* Assets.xcassets */,
 				BD74F77C23749FD90016A981 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 				BD74F77023749FD60016A981 /* AppDelegate.m in Sources */,
 				BD74F78123749FD90016A981 /* main.m in Sources */,
 				BD74F77323749FD60016A981 /* SceneDelegate.m in Sources */,
+				BD74F7892374A7AE0016A981 /* LSIPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
