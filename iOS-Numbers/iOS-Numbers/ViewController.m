@@ -50,7 +50,7 @@
 	LSIPerson *actor = [[LSIPerson alloc] initWithName:james];
 	NSLog(@"actor: %@", actor.name);
 
-	[james setString:[@"David" mutableCopy]];	// modifying a mutable string and ... what's going to happen?
+	[james setString:[@"David" mutableCopy]];	// QUESTION: What's going to happen to actor's name?
 
 	NSLog(@"actor: %@", actor.name);
 

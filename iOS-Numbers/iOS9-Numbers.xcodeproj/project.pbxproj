@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD74F76B23749FD60016A981 /* iOS-Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD74F76B23749FD60016A981 /* iOS9-Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS9-Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD74F76E23749FD60016A981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD74F76F23749FD60016A981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD74F77123749FD60016A981 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		BD74F76C23749FD60016A981 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD74F76B23749FD60016A981 /* iOS-Numbers.app */,
+				BD74F76B23749FD60016A981 /* iOS9-Numbers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD74F76A23749FD60016A981 /* iOS-Numbers */ = {
+		BD74F76A23749FD60016A981 /* iOS9-Numbers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD74F78423749FD90016A981 /* Build configuration list for PBXNativeTarget "iOS-Numbers" */;
+			buildConfigurationList = BD74F78423749FD90016A981 /* Build configuration list for PBXNativeTarget "iOS9-Numbers" */;
 			buildPhases = (
 				BD74F76723749FD60016A981 /* Sources */,
 				BD74F76823749FD60016A981 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-Numbers";
+			name = "iOS9-Numbers";
 			productName = "iOS-Numbers";
-			productReference = BD74F76B23749FD60016A981 /* iOS-Numbers.app */;
+			productReference = BD74F76B23749FD60016A981 /* iOS9-Numbers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD74F76623749FD60016A981 /* Build configuration list for PBXProject "iOS-Numbers" */;
+			buildConfigurationList = BD74F76623749FD60016A981 /* Build configuration list for PBXProject "iOS9-Numbers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD74F76A23749FD60016A981 /* iOS-Numbers */,
+				BD74F76A23749FD60016A981 /* iOS9-Numbers */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD74F76623749FD60016A981 /* Build configuration list for PBXProject "iOS-Numbers" */ = {
+		BD74F76623749FD60016A981 /* Build configuration list for PBXProject "iOS9-Numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD74F78223749FD90016A981 /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD74F78423749FD90016A981 /* Build configuration list for PBXNativeTarget "iOS-Numbers" */ = {
+		BD74F78423749FD90016A981 /* Build configuration list for PBXNativeTarget "iOS9-Numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD74F78523749FD90016A981 /* Debug */,

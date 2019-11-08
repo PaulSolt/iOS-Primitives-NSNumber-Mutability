@@ -10,8 +10,9 @@
 
 @interface LSIPerson : NSObject
 
-- (instancetype)initWithName:(NSString *)name;
+// Always copy mutable classes so the object instance owns the data
+@property (nonatomic, copy) NSString *name;
 
-@property (nonatomic, copy) NSString *name;	// Always copy mutable classes so we own the data
+- (instancetype)initWithName:(NSString *)name;
 
 @end
