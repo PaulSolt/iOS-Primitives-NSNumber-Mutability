@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 // Function declaration
-void cStringExercise(void);
+void pointerTest(void);
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
@@ -61,14 +61,14 @@ int main(int argc, const char * argv[]) {
 		printf("letter5: %c\n", letter5);
 		
 		
-		cStringExercise();
+		pointerTest();
 		
 	}
 	return 0;
 }
 
 
-void cStringExercise(void) {
+void pointerTest(void) {
     char *message = "Hello xxxxxxxxxxxxxxxxxxxx!"; // '\0' = null terminated
 
     printf("message pointer: %p\n", message);
